@@ -36,8 +36,12 @@ curl -fsSL https://raw.githubusercontent.com/dkomeza/tiny-git-helper/main/script
 ```
 
 ### Windows
+  
+```powershell
+powershell -c "irm https://raw.githubusercontent.com/MrJujek/tiny-git-helper/refs/heads/main/scripts/install.ps1 | iex"
+```
 
-Currently the only way to install tgh on Windows is to download the binary from [releases](https://github.com/dkomeza/tiny-git-helper/releases) page and add it to your PATH.
+You can also install tgh on Windows by downloading the binary from [releases](https://github.com/dkomeza/tiny-git-helper/releases) page and add it to your PATH.
 For example you can create a folder `C:\Program Files\tgh` and add it to your PATH.
 
 ## Features
